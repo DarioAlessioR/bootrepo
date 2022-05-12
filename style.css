@@ -28,7 +28,7 @@ section {
   box-sizing: border-box;
   text-align: center;
   overflow: hidden;
-  padding: 24px;
+  padding: 23px;
   position: relative;
   width: 100%;
   height: auto;
@@ -41,7 +41,7 @@ section {
 }
 
 #portfolio h1 {
-  color: #8079e0;
+  color: #5e54e7;
 }
 
 #portfolio {
