@@ -1,62 +1,77 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name: Dario Alessio's Portfolio - Bootstrap
 
-> Description the project.
+Description of the project:
 
+This project is for activity Try Bootstrap, as part of 3rd week of Module 1 of Microverse program.
+
+This is a page created to include professional information regarding technical and soft skills and abilities to inform potential employers.
+
+This is the 5th part of the whole project. It includes the previously completed homepage, "My recent works", "About myself", and Contact form sections, as well as the newly added link to the deployed page using Github Pages, which can be found in the section Deployment of this README file.
+
+The project includes both mobile and desktop versions.
+
+Project will be updated in next weeks with more information about the completed projects that will form part of the portafolio.
+
+The project has been done following template # 4 of Figma options provided by Microverse.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+-Major languages: HTML, CSS.
+
+-Frameworks: Visual Studio Code, Figma, Bootstrap
+
+-Technologies used: Git, GitHub, linters.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+No demo link available.
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+No special instructions needed
 
 ### Prerequisites
 
+No prerequisites
+
 ### Setup
+
+No setup required
 
 ### Install
 
+No install instructions required
+
 ### Usage
+
+Usage only for educational purpouses
 
 ### Run tests
 
+No test required
+
 ### Deployment
 
+Deployment done with Github Pages.
 
+Link: https://darioalessior.github.io/bootrepo/
 
 ## Authors
 
-👤 **Author1**
+👤 **Dario Alessio (@DarioAlessioR)**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: https://github.com/DarioAlessioR
+- Slack: https://microverse-students.slack.com/team/U039GCFRK9B
+- LinkedIn: https://www.linkedin.com/in/dario-alessio-3a3b7911b
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page: (https://github.com/DarioAlessioR/bootrepo/issues).
 
 ## Show your support
 
@@ -64,9 +79,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to anyone whose code was used and to reviewers that make possible constant improvement of this project.
+
+- Inspiration: Code with your brain, work with your heart.
 
 ## 📝 License
 

@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: #191765;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+section {
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  padding: 23px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+#portfolio p {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#portfolio h1 {
+  color: #5e54e7;
+}
+
+#portfolio {
+  background-image: url('images/ball.png'), url('images/ball.png');
+  background-size: 184px 184px, 226px 226px;
+  background-position: left 20px top 100px, right 20px top 350px;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#works {
+  box-sizing: border-box;
+  background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left -10px top 80px, right -20px top 850px, left -1px top 1400px, right 0 top 1600px;
+  background-size: auto auto, auto auto, 17% 19%, 41% 15%;
+  overflow: hidden;
+  display: grid;
+  text-align: left;
+  justify-content: center;
+}
+
+#works h2 {
+  color: #8079e0;
+  margin-left: 2%;
+}
+
+
+.work-text p {
+  font-size: 1rem;
+  padding: 0 0 20px 0;
+  text-align: left;
+}
+
+.work-image {
+  margin: 0;
+  padding: 0;
+}
+
+.work-image img {
+  width: 100%;
+  height: auto;
+}
+
+.work-text h3 {
+  font-size: 1.2rem;
+  padding: 0 0 15px 0;
+}
+
+.work-text ul {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+  padding-left: 0;
+}
+
+.work-text ul li {
+  border-right: 1px solid;
+  border-right-color: #555;
+  margin-right: 10px;
+  padding: 6px 5px;
+  display: inline-block;
+}
+
+.superButton {
+  border: none;
+  background-color: #3d34b4;
+  text-decoration: none;
+  padding: 8px 12px;
+  color: #edecff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: auto;
+}
+
+.superButtonR {
+  background-color: #3d34b4;
+  text-decoration: none;
+  padding: 8px 5px;
+  color: #edecff;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+#about{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#contactForm{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin-left: 22%;
+  margin-right: 25%;
+  margin-bottom: 50px;
+  animation-name: slidein;
+  animation-duration: 7s;
+}
+
+footer div h3 {
+  font-size: 1.2rem;
+}
+
+.container-WorkSocial2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #b3bac5;
+  padding: 5px 5px 0 0;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+  
+}
+
+.container-WorkSocial {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #b3bac5;
+  padding: 25px 20px 0 0;
+  font-size: 1.6rem;
+}
+
+.container-WorkSocial h4 {
+  padding-top: 15px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.container-strengths {
+  display: flex;
+  max-width: 60%;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 1.1rem;
+}
+
+.container-WorkSocial ul {
+  list-style: none;
+  margin: 10px 30px 20px 30px;
+}
+
+.features {
+  width: 10%;
+}
+
+
+.features h3 {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #ada8f0;
+}
+
+.features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  text-align: left;
+  font-size: 00.7rem;
+}
+
+.centerfeatures {
+  width: 40%;
+  margin-left: 30%
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+   display: none;
+  }
+
+  .menu {
+    display: block;
+    padding: 18px 0;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+
+  #ctrlHide {
+    display: none;
+  }
+
+  #portfolio {
+    background-image: url('images/ball.png'), url('images/ball.png');
+    background-size: 226px 226px, 184px 184px;
+    background-position: left -140px top 0, right -120px top 480px;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .container-strengths {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+
+  .container-WorkSocial ul {
+    list-style: none;
+    margin: 10px 30px 20px 30px;
+  }
+
+  .features h3 {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    text-align: left;
+    font-size: 00.7rem;
+  }
+
+  footer div {
+    flex-wrap: wrap;
+  }
+}
